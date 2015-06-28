@@ -1,0 +1,22 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               My little world
+tagline:             'Some spilled thoughts'
+description:         'An outlet for my toughts'
+url:                 ''
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Sumit Asthana
+  url:               ''
+  email:             asthana.sumit23@gmail.com
+
+# Custom vars
+version:             1.0.0
