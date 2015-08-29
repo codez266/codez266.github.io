@@ -4,13 +4,90 @@
  <title>My little world</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-06-28T23:20:54+05:30</updated>
+ <updated>2015-08-29T16:08:55+05:30</updated>
  <id></id>
  <author>
    <name>Sumit Asthana</name>
    <email>asthana.sumit23@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>End of GSoC 2015</title>
+   <link href="/2015/08/28/End%20Of%20GSoC/"/>
+   <updated>2015-08-28T00:00:00+05:30</updated>
+   <id>/2015/08/28/End Of GSoC</id>
+   <content type="html">&lt;p&gt;Aug 28th, 2015 marked the end of my Google Summer of Code intern at Wikimedia Foundation.
+My project targeted the &lt;a href=&quot;https://en.wikivoyage.org/wiki/Wikivoyage:Banner_Expedition&quot;&gt;banner expedition&lt;/a&gt; of &lt;a href=&quot;http://en.wikivoyage.org/wiki/&quot;&gt;English Wikivoyage&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt;
+
+&lt;p&gt;English Wikivoyage and some other Wikivoyage projects had developed a culture to render page-wide banners on articles to enhance the overall appeal of the pages by portraying some attractive location of the place in the banner.
+The banners were originally rendered through the use of a &lt;a href=&quot;https://www.mediawiki.org/wiki/Help:Templates&quot;&gt;Mediawiki Template&lt;/a&gt; which however had some issues with it:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Banners were not responsive. Since the banners were 2100px X 300px, downloading a large sized banner on small screens became a significant aspect.&lt;/li&gt;
+  &lt;li&gt;Table of Contents were displayed in a linear fashion inside the banner, which however did not support multiple levels.&lt;/li&gt;
+  &lt;li&gt;Banners on mobile devices clashed with page heading.&lt;/li&gt;
+  &lt;li&gt;Due to a 7:1 aspect ration, banners on small screens became too small to leave a visual impact upon the reader.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
+
+&lt;p&gt;Therefore, my project involved developing a Mediawiki extension to resolve the above issues and pack the feature inside a single unit so that its usage can be extended uniformly across all wikis, if needed.
+I worked under the mentorship of &lt;a href=&quot;http://www.mediawiki.org/wiki/User:Jdlrobson&quot;&gt;Jon Robson&lt;/a&gt; and &lt;a href=&quot;https://www.mediawiki.org/wiki/User:Syced&quot;&gt;Nicolas Raoul&lt;/a&gt;. We formed a great team and I really enjoyed working with them.&lt;/p&gt;
+
+&lt;h2 id=&quot;phases-of-the-projectin-brief&quot;&gt;Phases of the project(in brief)&lt;/h2&gt;
+
+&lt;h3 id=&quot;community-bonding-period&quot;&gt;Community Bonding Period:&lt;/h3&gt;
+
+&lt;p&gt;This is a common period for all GSoC projects where the intern is required to get more familiar with his/her organization and his/her mentors. I was already in touch with my mentors from before this period so it involved taking the first steps towards building the extension. It involved:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bootstrapping the extension from a bootatrap extension Template.&lt;/li&gt;
+  &lt;li&gt;Setting up basic &lt;a href=&quot;http://www.mediawiki.org/wiki/Manual:Hooks&quot;&gt;Mediawiki Hooks&lt;/a&gt; to insert banners by default on all pages.&lt;/li&gt;
+  &lt;li&gt;Starting the development of a &lt;a href=&quot;http://www.mediawiki.org/wiki/Manual:Parser_functions&quot;&gt;parser function&lt;/a&gt;  to insert custom page banners on articles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;coding-phase&quot;&gt;Coding phase:&lt;/h3&gt;
+
+&lt;p&gt;This phase marked the beginning of actual coding.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The parser function  was completed.&lt;/li&gt;
+  &lt;li&gt;The feature to fetch a banner from &lt;a href=&quot;http://www.wikidata.org&quot;&gt;Wikidata&lt;/a&gt; was implemented&lt;/li&gt;
+  &lt;li&gt;Feature to add icons to banners was added.&lt;/li&gt;
+  &lt;li&gt;The banners were made to display on preview.&lt;/li&gt;
+  &lt;li&gt;Php unit tests were added to cover server-side code.&lt;/li&gt;
+  &lt;li&gt;Multiple level Table of contents were added.&lt;/li&gt;
+  &lt;li&gt;The existig code was refactored to allow better testing.&lt;/li&gt;
+  &lt;li&gt;Issues of styling and Flash of unstyled content were resolved.&lt;/li&gt;
+  &lt;li&gt;The work to add mobile compatibility was added.&lt;/li&gt;
+  &lt;li&gt;Table of contents generation was shifted to server side.&lt;/li&gt;
+  &lt;li&gt;“Srcset” attribute used to trigger responsiveness.&lt;/li&gt;
+  &lt;li&gt;A module to focus specific areas of banner on small screens was added.&lt;/li&gt;
+  &lt;li&gt;The extension has been deployed on &lt;a href=&quot;http://en.wikivoyage.org/wiki/&quot;&gt;English Wikivoyage&lt;/a&gt; and is in use there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The above is a brief overview and complete report can be found at &lt;a href=&quot;https://phabricator.wikimedia.org/T101227&quot;&gt;Phabricator&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges-and-takeaways&quot;&gt;Challenges and Takeaways:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a testable code was a challenge that I learnt and also the need for having good test cases, as they allow preemptive bug monitoring.&lt;/li&gt;
+  &lt;li&gt;Ensuring community involvement and making suitable changes to satisfy the beneficiary community needs was an important aspect that I learnt.&lt;/li&gt;
+  &lt;li&gt;Writing code conforming to standards and also keeping it self-explanatory.&lt;/li&gt;
+  &lt;li&gt;Weekly meetings with my mentors helped me keep everything on track and things never got too far out of hand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;final-words&quot;&gt;Final Words&lt;/h3&gt;
+
+&lt;p&gt;The developed extension’s documentation is at &lt;a href=&quot;http://mediawiki.org/wiki/Extension:WikidataPageBanner&quot;&gt;Extension:WikidataPageBanner&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was a great experience to work with such an organization which aims to bring free knowledge to everyone. The people are great!
+For anyone thinking of contributing to it, I’d say, Just Go for it!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First</title>
