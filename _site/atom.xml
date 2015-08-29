@@ -4,7 +4,7 @@
  <title>My little world</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-08-29T16:08:55+05:30</updated>
+ <updated>2015-08-30T01:41:20+05:30</updated>
  <id></id>
  <author>
    <name>Sumit Asthana</name>
@@ -18,7 +18,7 @@
    <updated>2015-08-28T00:00:00+05:30</updated>
    <id>/2015/08/28/End Of GSoC</id>
    <content type="html">&lt;p&gt;Aug 28th, 2015 marked the end of my Google Summer of Code intern at Wikimedia Foundation.
-My project targeted the &lt;a href=&quot;https://en.wikivoyage.org/wiki/Wikivoyage:Banner_Expedition&quot;&gt;banner expedition&lt;/a&gt; of &lt;a href=&quot;http://en.wikivoyage.org/wiki/&quot;&gt;English Wikivoyage&lt;/a&gt;.&lt;/p&gt;
+My project targeted the &lt;a href=&quot;https://en.wikivoyage.org/wiki/Wikivoyage:Banner_Expedition&quot;&gt;banner expedition&lt;/a&gt; of &lt;a href=&quot;http://en.wikivoyage.org/wiki/&quot;&gt;English Wikivoyage&lt;/a&gt;. Here’s a small walkthrough of my project, what led to it and how it came out to be.&lt;/p&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background:&lt;/h2&gt;
 
