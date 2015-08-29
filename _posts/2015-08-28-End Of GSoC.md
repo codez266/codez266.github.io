@@ -1,6 +1,7 @@
 ---
 layout: post
 title: End of GSoC 2015
+permalink: End_of_GSoC2015
 tags:
 - GSoC
 - summerintern
