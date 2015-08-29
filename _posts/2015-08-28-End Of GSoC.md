@@ -6,7 +6,7 @@ tags:
 - summerintern
 ---
 Aug 28th, 2015 marked the end of my Google Summer of Code intern at Wikimedia Foundation.
-My project targeted the [banner expedition](https://en.wikivoyage.org/wiki/Wikivoyage:Banner_Expedition) of [English Wikivoyage](http://en.wikivoyage.org/wiki/).
+My project targeted the [banner expedition](https://en.wikivoyage.org/wiki/Wikivoyage:Banner_Expedition) of [English Wikivoyage](http://en.wikivoyage.org/wiki/). Here's a small walkthrough of my project, what led to it and how it came out to be.
 
 ## Background:
 
