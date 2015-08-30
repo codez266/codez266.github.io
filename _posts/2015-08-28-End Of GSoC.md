@@ -22,7 +22,11 @@ The banners were originally rendered through the use of a [Mediawiki Template](h
 ## The project
 
 Therefore, my project involved developing a Mediawiki extension to resolve the above issues and pack the feature inside a single unit so that its usage can be extended uniformly across all wikis, if needed.
-I worked under the mentorship of [Jon Robson](http://www.mediawiki.org/wiki/User:Jdlrobson) and [Nicolas Raoul](https://www.mediawiki.org/wiki/User:Syced). We formed a great team and I really enjoyed working with them.
+I worked under the mentorship of [Jon Robson](http://www.mediawiki.org/wiki/User:Jdlrobson) and [Nicolas Raoul](https://www.mediawiki.org/wiki/User:Syced). We formed a great team and I really enjoyed working with them!
+
+Here's the final demo of what the extension does:
+
+![Final Demo](/images/wikivoyage.png)
 
 ## Phases of the project(in brief)
 
@@ -60,6 +64,14 @@ The above is a brief overview and complete report can be found at [Phabricator](
 * Ensuring community involvement and making suitable changes to satisfy the beneficiary community needs was an important aspect that I learnt.
 * Writing code conforming to standards and also keeping it self-explanatory.
 * Weekly meetings with my mentors helped me keep everything on track and things never got too far out of hand.
+
+## A cool new feature!
+
+*Due to banner cropping on smaller devices, a new feature has been added which would focus the banner on specific areas.
+This can have a huge impact on banner creation as now it would no longer be mandatory to create specific size banners. Just pick a suitable image and focus it!*
+
+<img src="/images/mobile1.png" style="float:left;width:47%;margin:5px" title="focus on left">
+<img src="/images/mobile2.png" style="width:47%;margin:5px" title="focus on right">
 
 ### Final Words
 
