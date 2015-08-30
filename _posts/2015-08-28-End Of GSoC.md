@@ -23,10 +23,11 @@ The banners were originally rendered through the use of a [Mediawiki Template](h
 
 Therefore, my project involved developing a Mediawiki extension to resolve the above issues and pack the feature inside a single unit so that its usage can be extended uniformly across all wikis, if needed.
 I worked under the mentorship of [Jon Robson](http://www.mediawiki.org/wiki/User:Jdlrobson) and [Nicolas Raoul](https://www.mediawiki.org/wiki/User:Syced). We formed a great team and I really enjoyed working with them!
+We had regular meetings and I never was blocked on any issue for a long time. Their ideas and suggestions helped a lot in both refining the code as well as the aesthetics part.
 
 Here's the final demo of what the extension does:
 
-![Final Demo](/images/wikivoyage.png)
+[![Final Demo](/images/wikivoyage.png "Banner on English Wikivoyage")](/images/wikivoyage.png)
 
 ## Phases of the project(in brief)
 
@@ -58,6 +59,10 @@ This phase marked the beginning of actual coding.
 
 The above is a brief overview and complete report can be found at [Phabricator](https://phabricator.wikimedia.org/T101227)
 
+### English Wikivoyage Community support:
+
+[English Wikivoyage](http://en.wikivoyage.org/wiki/) community is great and very open to new ideas. A lot of discussions took place on [Traveller's Pub](en.wikivoyage.org/wiki/Traveller's_Pub) which led to the refinement of the extension. The support extended by them in making this a success from feedback to criticism to pointing out bugs has been invaluable!
+
 ### Challenges and Takeaways:
 
 * Maintaining a testable code was a challenge that I learnt and also the need for having good test cases, as they allow preemptive bug monitoring.
@@ -70,8 +75,8 @@ The above is a brief overview and complete report can be found at [Phabricator](
 *Due to banner cropping on smaller devices, a new feature has been added which would focus the banner on specific areas.
 This can have a huge impact on banner creation as now it would no longer be mandatory to create specific size banners. Just pick a suitable image and focus it!*
 
-<img src="/images/mobile1.png" style="float:left;width:47%;margin:5px" title="focus on left">
-<img src="/images/mobile2.png" style="width:47%;margin:5px" title="focus on right">
+<a href="/images/mobile1.png"><img src="/images/mobile1.png" style="float:left;width:47%;margin:5px" title="focus on left"></a>
+<a href="/images/mobile2.png"><img src="/images/mobile2.png" style="width:47%;margin:5px" title="focus on right"></a>
 
 ### Final Words
 
