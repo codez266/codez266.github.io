@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               My little world
-tagline:             'Some spilled thoughts'
-description:         'An outlet for my toughts'
+title:               Computer Science and all else
+tagline:             'Bits and pieces of thoughts'
+description:         'on computer science, research and other things interesting'
 url:                 ''
 baseurl:             ''
 paginate:            5
