@@ -7,8 +7,13 @@ title: About
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>-->
 
-Hello, I'm Sumit. I'm a computer science student currently in IIT Patna, India.
-I'm interested in developing for web as well as diving into the world of algorithms. I've recently developed a strong interest in open source and I'm a contributor to mediawiki open source software.
-This blog is mainly my thoughts related to web and anything else that may interest me in computer science.
+Hello, I'm Sumit. I'm a bachelors in Computer Science from IIT Patna.
+I'm interested in Machine Learning with a focus towards NLP. I'm also passionate
+about technology in general and believe that technology in any form has the power to
+transform human lives for better or for worse. I'm especially inclined towards
+the use of AI in the present age for better of lives. I'm also a Wikipedia
+voluntter and my MediaWiki userpage is [this](https://mediawiki.org/wiki/User:Sumit.iitp)
+This blog is mainly my thoughts related to Computer Science and anything else that may interest me apart from computer science.
 
-Thanks for reading!
+Thanks for stopping by! For any questions, you can leave comments on the posts
+or on my MediaWiki user [talk page](https://www.mediawiki.org/wiki/User_talk:Sumit.iitp).
