@@ -12,8 +12,15 @@ I'm interested in Machine Learning with a focus towards NLP. I'm also passionate
 about technology in general and believe that technology in any form has the power to
 transform human lives for better or for worse. I'm especially inclined towards
 the use of AI in the present age for better of lives. I'm also a Wikipedia
-voluntter and my MediaWiki userpage is [this](https://mediawiki.org/wiki/User:Sumit.iitp)
-This blog is mainly my thoughts related to Computer Science and anything else that may interest me apart from computer science.
+volunteer and my MediaWiki userpage is [this](https://mediawiki.org/wiki/User:Sumit.iitp).
+
+I was previously a member of the NLP Lab at IIT Patna under [Prof. Pushpak
+Bhattacharya](https://www.cse.iitb.ac.in/~pb/) where I started most of my
+work in NLP and Machine Learning and presently I'm an independent researcher
+contributing to open source projects(primarily Wikipedia) and applying to labs doing
+research in Machine Learning, Deep Learning and NLP.
+
+This blog is mainly on my thoughts related to Computer Science and anything else that may interest me apart from computer science.
 
 Thanks for stopping by! For any questions, you can leave comments on the posts
 or on my MediaWiki user [talk page](https://www.mediawiki.org/wiki/User_talk:Sumit.iitp).
