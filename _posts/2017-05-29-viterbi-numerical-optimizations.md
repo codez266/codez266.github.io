@@ -10,8 +10,11 @@ tags:
 I'm quite excited to write about my recent set of investigations on a seemingly
 simple mini-project.
 Recently I wrote a small code for [Machine Translation](https://github.com/codez266/ai_iitp/tree/master/MachineTranslation) from English to Hindi
-using HMM Viterbi decoding. The code used word alignments from the [GIZA++](http://www.statmt.org/moses/giza/GIZA++.html) tool
-and after aligning the words in both languages, we get probability scores like:
+using HMM Viterbi decoding. First I did word alignments using the [GIZA++](http://www.statmt.org/moses/giza/GIZA++.html) tool
+from parallel corpus and after aligning the words in both languages, we get probability scores like:
+Please note that this is not exactly a post on Machine Translation, as this is a
+very naive way to do that, but a discussion on using HMM POS-Tagger code for a
+crude MT project and using basic level optimizations to make it fast.
 
 |Src lang index|Dst lang index|Probability|
 |--------------|--------------|-----------|
@@ -22,14 +25,25 @@ and after aligning the words in both languages, we get probability scores like:
 |0|14|0.000144811| 
 |0|17|3.12898e-05|
 
+Here the integers represent the index for each word in the dictionary created
+from the corpus.
+
 The Machine Translation model is analogous to an HMM POS-Tagger where words in one
 _language can be treated as hidden states transitioning from one to another( and defined by the language model ) and each word( state ) generating a word in the target language using emission probability given by the alignments above._
+
+The noisy channel model:
+```
+P(H|E) = argmax(over H) P(E|H) * P(H)
+```
+i.e, Probability of Hindi given an English sentence is argmax over the combined
+probability of English given Hindi and probability of the hindi sentence, maxed
+over hindi sentences.
 
 ## Viterbi Decoding
 
 Once this analogy between POS-Tagging and Machine Translation is setup, I simply
-ported the POS-Tagger code for Machine Translation, but there were surprises to
-be had. I ran the algorithm and it would take ages to translate one sentence.
+ported the POS-Tagger [code](https://github.com/codez266/ai_iitp/tree/master/HMM_POS_Tagger) for Machine Translation, but there were surprises to
+be had. I ran the algorithm and it would take __ages__ to translate one sentence.
 Lets see what was wrong:
 #### Initialization
 ```
@@ -48,11 +62,11 @@ For(i=1 to N) do
 	[ SEQSCORE( j , ( t − 1 )) * P ( Sj --ak--> Si)]
 BACKPTR(I,t) = index j that gives the MAX above
 ```
-__Complexity: O(T x n x n)__
+__Complexity: O(T x N x N)__
 
-POS-Tagger: Hidden states = tags = 20(say), words = 5000, Complexity = 5 x 10^8
+__POS-Tagger__: Hidden states = tags = 20(say), words = 5000, Complexity = 5 x 10^8
 
-Machine Translation: Hidden states = Hindi words = 94125~10^5, English words = 72167~10^5, Complexity ~ 10^10
+__Machine Translation__: Hidden states = Hindi words = 94125~10^5, English words = 72167~10^5, Complexity ~ 10^10
 
 Clearly, because the number of hidden states in Machine Translation is
 equivalent to the number of words, our complexity is of that order of magniture
@@ -60,7 +74,7 @@ higher.
 
 ## Can we do better?
 
-## First Attempt: _Base approach_
+## Attempt _one_: _Base approach_
 
 To start with I had a transition matrix that contained transitions of every word
 to every other words, which I readily indexed using __'transition[w_idx1]'[w_idx2]__. This was the naivest approach and which did not even meet memory constraints, letting my laptop hang.
