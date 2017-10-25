@@ -20,6 +20,9 @@ work in NLP and Machine Learning and presently I'm an independent researcher
 contributing to open source projects(primarily Wikipedia) and applying to labs doing
 research in Machine Learning, Deep Learning and NLP.
 
+Currently, I'm doing a lot of open-source research with [Wikipedia's AI
+team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team). All my research contributions are documented at my [user page](https://meta.wikimedia.org/wiki/User:Sumit.iitp/Research).
+
 This blog is mainly on my thoughts related to Computer Science and anything else that may interest me apart from computer science.
 
 Thanks for stopping by! For any questions, you can leave comments on the posts
