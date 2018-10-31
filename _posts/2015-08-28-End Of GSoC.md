@@ -1,7 +1,7 @@
 ---
-layout: post
 title: End of GSoC 2015
-permalink: End_of_GSoC2015
+date: 2015-08-28
+permalink: /posts/2015/08/gsoc2015
 tags:
 - GSoC
 - summerintern

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Viterbi and Numerical Optimizations
-permalink: viterbi-num-optimizations
+date: 2017-05-29
+permalink: /posts/2017/05/viterbi-num-optimizations
 tags:
 - research
 - optimization

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Wikipedia - Sentiment in Wikipedia Drafts and Edits
-permalink: wikipedia-sentiment-edits
+date: 2017-07-20
+permalink: /posts/2017/07/wikipedia-sentiment-edits
 tags:
 - research
 - Wikimedia

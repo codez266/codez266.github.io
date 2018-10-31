@@ -1,7 +1,7 @@
 ---
-layout: post
 title: UG-Research-Project
-permalink: ug-research-project
+date: 2017-05-01
+permalink: /posts/2017/05/ug-research-project
 tags:
 - research
 - ug-project

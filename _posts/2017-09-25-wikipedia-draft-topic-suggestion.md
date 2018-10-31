@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Topics suggestion to new drafts on Wikipedia
-permalink: drafttopic-detection
+date: 2017-09-25
+permalink: /posts/2017/09/drafttopic-detection
 tags:
 - research
 - wikipedia

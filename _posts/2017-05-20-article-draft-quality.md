@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Wikipedia - Article Draft Quality
-permalink: article-draft-quality
+date: 2017-05-20
+permalink: /posts/2017/05/article-draft-quality
 tags:
 - research
 - Wikimedia
