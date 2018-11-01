@@ -11,23 +11,27 @@ redirect_from:
 
 Education
 ======
-* Bachelors in Computer Science and Engineering from IIT Patna, 2017
+* Bachelors in Computer Science and Engineering from IIT Patna, 2017 - CPI 9.09/10
 
 Work experience
 ======
-* May 2018 - Present: Research Fellow
+* **Research Fellow** : May 2018 - Present
   * Microsoft Research, India
   * Project on AI assisted Dev Ops
   
-* July 2017 - May 2018: Software Engineer
+* **Software Engineer** :  July 2017 - May 2018
   * Arista Networks, India
-  * Part of the platform for software for network ASICs in C++ that runs on Arista switches
+  * Part of the platform team for writing software for network ASICs in C++ that runs on Arista switches
 
-* Summer 2016: Software Engineering Intern
+* **Wikimedia Research** : 2017
+  * Worked on improving new article review at Wikipedia by building a topic prediction service
+  * Supervisor: [Dr. Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF))
+
+* **Software Engineering Intern** : Summer 2016
   * Arista Networks, India
   * Write software to enhance routes dumping on CLI that integrates in Arista Networking OS
 
-* Summer 2015: Google Summer of Code
+* **Google Summer of Code** : Summer 2015
   * Wikimedia Foundation
   * WikidataPageBanner extension with the Mobile team of Wikipedia
   * Supervisor: Jon Robson
