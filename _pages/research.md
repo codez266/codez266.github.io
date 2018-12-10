@@ -1,0 +1,31 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+<style>
+.research-item {
+	overflow: auto;
+	font-size: 16px;
+	margin: 2.5em 0;
+}
+.research-item p{
+	margin: 0;
+}
+.research-item-img img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.research-item a {
+	color: #fc497d;
+}
+</style>
+
+{% for post in site.portfolio reversed %}
+  {% include portfolio.html %}
+{% endfor %}
+
+

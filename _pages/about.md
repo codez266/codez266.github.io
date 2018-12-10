@@ -10,8 +10,8 @@ redirect_from:
 
 I'm a **Research Fellow at Microsoft Research India**. I did my bachelors in Computer Science from IIT Patna(2017).
 
-Previously, I was a member of the NLP Lab at IIT Patna under [**Prof. Pushpak
-Bhattacharya**](https://www.cse.iitb.ac.in/~pb/). I have also worked with **Dr. Aaron Halfaker** at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. I'm presently working on improving the efficiency of software engineering processes through ML as a Research Fellow at Microsoft Research, India.
+Previously, I was a member of the NLP Lab at IIT Patna under [Prof. Pushpak
+Bhattacharya](https://www.cse.iitb.ac.in/~pb/). I have also worked with **Dr. Aaron Halfaker** at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. I'm presently working on improving the efficiency of software engineering processes through ML as a Research Fellow at Microsoft Research, India.
 
 I'm an aspiring researcher interested in Machine Learning and System building to solve challenging problems especially around collaborative environments. I'm also interested in ML for high performance systems.
 I'm also passionate about technology in general and believe that technology in any form has the power to
