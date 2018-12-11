@@ -83,10 +83,10 @@ author:
   name             : "Sumit"
   avatar           : "profile.jpg"
   bio              : "An dabbler in music and interested in solving challenging problems that can benefit society"
-  location         : "Location"
+  location         : "Bengaluru, India"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    :
+  email            : "t-suasth@microsoft.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -100,13 +100,13 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
