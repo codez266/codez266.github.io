@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Research Fellow at Microsoft Research, India where I'm working on [Project Sankie](https://www.microsoft.com/en-us/research/project/sankie/) in the Applied Sciences Group. I did my bachelors in Computer Science from IIT Patna(2017).
+Hi, I'm a graduate student at University of Michigan, Ann Arbor. I work with [Nikola Banovic](http://www.nikolabanovic.net/) in the domain of applications of AI to human-centered areas.
+
+Before this, I was a Research Fellow at Microsoft Research, India where I was working on [Project Sankie](https://www.microsoft.com/en-us/research/project/sankie/) in the Applied Sciences Group. I did my bachelors in Computer Science from IIT Patna(2017).
 
 Previously, I was a member of the NLP Lab at IIT Patna under [Prof. Pushpak
 Bhattacharya](https://www.cse.iitb.ac.in/~pb/). I have also worked with [Dr. Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)) at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. I'm presently working on improving the efficiency of software engineering processes through ML as a Research Fellow at Microsoft Research, India.
 
-I'm an aspiring researcher interested in Machine Learning and System building to solve challenging problems especially around socio-technical environments. I'm also interested in ML for high performance systems.
 I'm passionate about technology in general and believe that technology in any form has the power to
-transform human lives for better or for worse. I'm interested in pursuing a PhD in the above domains.
+transform human lives for better or for worse. 
  
 For more details about my projects, head over to my [research page](/portfolio).
 
