@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sumit Asthana"
 title_separator          : "-"
 name                     : &name "Sumit Asthana"
-description              : &description "Research Fellow @ Microsoft Research"
+description              : &description "Graduate Student @ University of Michigan"
 url                      : https://codez266.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "codez266.github.io"
@@ -83,7 +83,7 @@ author:
   name             : "Sumit"
   avatar           : "profile.jpg"
   bio              : "An dabbler in music and interested in solving challenging problems that can benefit society"
-  location         : "Bengaluru, India"
+  location         : "Ann Arbor, USA"
   employer         :
   googlescholar    :
   email            : "t-suasth@microsoft.com"
