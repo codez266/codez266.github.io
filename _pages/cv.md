@@ -15,7 +15,11 @@ Education
 
 Work experience
 ======
-* **Research Fellow** : May 2018 - Present
+* **Graduate Student** : July 2019 - Present
+  * University of Michigan, USA
+  * CompHCI Lab @ UMICH
+
+* **Research Fellow** : May 2018 - July 2019
   * Microsoft Research, India
   * Project on AI assisted Dev Ops
   
