@@ -13,7 +13,7 @@ Hi, I'm a graduate student at University of Michigan, Ann Arbor. I work with [Ni
 Before this, I was a Research Fellow at Microsoft Research, India where I was working on [Project Sankie](https://www.microsoft.com/en-us/research/project/sankie/) in the Applied Sciences Group. I did my bachelors in Computer Science from IIT Patna(2017).
 
 Previously, I was a member of the NLP Lab at IIT Patna under [Prof. Pushpak
-Bhattacharya](https://www.cse.iitb.ac.in/~pb/). I have also worked with [Dr. Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)) at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. I'm presently working on improving the efficiency of software engineering processes through ML as a Research Fellow at Microsoft Research, India.
+Bhattacharya](https://www.cse.iitb.ac.in/~pb/). I have also worked with [Dr. Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)) at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. At Microsoft Research, India, my work was on improving the efficiency of software engineering processes through ML.
 
 I'm passionate about technology in general and believe that technology in any form has the power to
 transform human lives for better or for worse. 
