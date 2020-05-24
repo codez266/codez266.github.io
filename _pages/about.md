@@ -10,15 +10,12 @@ redirect_from:
 
 Hi, I'm a graduate student at University of Michigan, Ann Arbor. I work with [Nikola Banovic](http://www.nikolabanovic.net/) in the domain of applications of AI to human-centered areas.
 
-Before this, I was a Research Fellow at Microsoft Research, India where I was working on [Project Sankie](https://www.microsoft.com/en-us/research/project/sankie/) in the Applied Sciences Group. I did my bachelors in Computer Science from IIT Patna(2017).
+In my engineering hat, I enjoy building systems and the last mile optimizations that go with putting something in practice.
 
-Previously, I was a member of the NLP Lab at IIT Patna under [Prof. Pushpak
-Bhattacharya](https://www.cse.iitb.ac.in/~pb/). I have also worked with [Dr. Aaron Halfaker](https://meta.wikimedia.org/wiki/User:Halfak_(WMF)) at [Wikimedia's AI team](https://www.mediawiki.org/wiki/Wikimedia_Scoring_Platform_team) to solve a relevant problem of backlogs in new page review through AI. At Microsoft Research, India, my work was on improving the efficiency of software engineering processes through ML.
+In my research hat, I enjoy working on challenging problems from the the algorithmic lens, and how we can use algorithms to solve novel problems. 
 
-I'm passionate about technology in general and believe that technology in any form has the power to
-transform human lives for better or for worse. 
- 
-For more details about my projects, head over to my [research page](/portfolio).
+More details about me in these hats can be found on my [CV](/cv) page
+
 
 Contact
 ------
