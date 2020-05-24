@@ -21,7 +21,8 @@ Work experience
 
 * **Research Fellow** : May 2018 - July 2019
   * Microsoft Research, India
-  * Project on AI assisted Dev Ops
+  * [Project Sankie](https://www.microsoft.com/en-us/research/project/sankie/) - AI assisted Dev Ops
+  * Responsible for building a code-reviewer recommendations system from research to deployment
   
 * **Software Engineer** :  July 2017 - May 2018
   * Arista Networks, India
@@ -39,6 +40,11 @@ Work experience
   * Wikimedia Foundation
   * WikidataPageBanner extension with the Mobile team of Wikipedia
   * Supervisor: Jon Robson
+
+* **AI-ML-NLP Lab** : 2016-17
+  * IIT Patna
+  * Member of the [AI-NLP-ML](http://www.iitp.ac.in/~ai-nlp-ml/) lab under [Prof. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/)
+  * Worked on NLP problems like ranking relations in text, and entity recognition in medical texts.
 
 Skills
 ======
