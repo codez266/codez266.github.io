@@ -10,9 +10,9 @@ redirect_from:
 
 Hi, I'm a graduate student at University of Michigan, Ann Arbor. I work with [Nikola Banovic](http://www.nikolabanovic.net/) in the domain of applications of AI to human-centered areas.
 
-In my engineering hat, I enjoy building systems and the last mile optimizations that go in taking research from theory to practice.
+In my research hat, I enjoy working on challenging problems from the the algorithmic lens, and how we can use algorithms to solve novel problems.
 
-In my research hat, I enjoy working on challenging problems from the the algorithmic lens, and how we can use algorithms to solve novel problems. 
+In my engineering hat, I enjoy building systems and the last mile optimizations that go in taking research from theory to practice.
 
 More details about me in these hats can be found on my [CV](/cv) page
 
