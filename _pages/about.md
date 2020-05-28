@@ -22,4 +22,4 @@ Contact
 
 LinkedIn: [sumitasthana26](https://www.linkedin.com/in/sumitasthana26/)  
 Mediawiki: [Sumit](https://meta.wikimedia.org/wiki/User_talk:Sumit.iitp)  
-Email: asthana.sumit23@gmail.com, t-suasth@microsoft.com
+Email: asthanaDOTsumit23ATgmail.com, asumitATumichDOTedu
