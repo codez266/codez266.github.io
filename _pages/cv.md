@@ -11,6 +11,7 @@ redirect_from:
 
 Education
 ======
+* Third year PhD student in CSE at University of Michigan, Ann Arbor, GPA: 4.0/4.0
 * Bachelors in Computer Science and Engineering from IIT Patna, 2017 - CPI 9.09/10
 
 Work experience
@@ -18,6 +19,10 @@ Work experience
 * **Graduate Student** : July 2019 - Present
   * University of Michigan, USA
   * CompHCI Lab @ UMICH
+
+* **Research Intern** : May 2021 - August 2021
+  * Microsoft, USA
+  * 1ES Data engineering
 
 * **Research Fellow** : May 2018 - July 2019
   * Microsoft Research, India
