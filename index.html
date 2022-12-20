@@ -12,8 +12,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="custom.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    .exp, .project{
+      margin-top: 2em;
+    }
+
+    .section-header {
+      border-bottom: 1px ridge #d0d0d0;
+      padding-bottom: 0.3em;
+      margin-bottom: 0.4em;
+    }
+  </style>
+
 </head>
 <body>
 
@@ -50,25 +63,25 @@
             <!-- Entries Column -->
 			<!--<div class="col-md-8" style="height: 100vh;">-->
             <div class="col-md-8" >
-                
                 <!-- Main Image -->
                 <img class="img-responsive" src="img/self.jpeg" alt=""
 				style="width: 30%"><br>
-                
+    
                 <div style="margin-top:3%; text-align:justify;">                
 					<p>I am a fourth year PhD candidate at University of
 					Michigan, Ann Arbor. My research interests are at the
 					intersection of Machine Learning and Human-Computer
 					Interaction (HCI).</p>
-					
+
 					<p>I develop methods for Human-AI interaction that allows AI
 					systems to utilize information about their users and the
 					context to improve their performance. For example, a chatbot
 					that efficiently selects queries to pose to the user to
 					learn about a concept, or personalize the interaction.</p>	
                 </div>
-				<h2>Projects</h2>
-				<ul>
+        <div class="projects">
+          <h2 class="section-header">Projects</h2>
+				<!-- <ul>
 					<li>Teaching conversational agents to know their users by
 						asking the right questions.</li>
 					<li>Understanding privacy risks of conversing with open
@@ -77,7 +90,79 @@
 					models.</li>
 					<li>Understanding decision making under Uncertainity </li>
 					<li>Automatically labeling low quality content on Wikipedia.</li>
-				</ul>
+				</ul> -->
+          <div class="project">
+            <h4>Tell me how to know you? - Teaching conversational agents how to know their users</h4>
+            <p>Research on conversational agents that learn to ask open domain questions to know their
+              users that are relevant, and socially appropriate. The agent uses Reinforcement Learning to
+              maximize information about the user as well as user's willingness to answer the question.
+            </p>
+          </div>
+
+          <div class="project">
+            <h4>Consentful conversational interactions</h4>
+            <p>Can digital personal assitatns violate privacy when knowing their users? - Studying privacy implications of user chatbot interactions in a quantative user study, by understanding user's mental models of conversational digital personal assistants, and their privacy concerns with them.
+            </p>
+          </div>
+
+          <div class="project">
+
+            <h4>Modeling indoor covid-19 transmissions</h4>
+            <p>Build a system to evaluate the spread of covid-19 in indoor environments, by simulating human behavior using Reinforcement Learning. Through realistic models of home environments, and human behavior, we are understanding the spread of covid-19 due to human movements, to identify possible strategies to mitigate such spread.
+            </p>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+
+        <script>
+          $(document).ready(() => {
+            $('<body>').append(Experience.$element);
+          });
+        </script>
+				<div class="experience">
+          <h2 class="section-header">Experience</h2>
+					<div class="exp">
+						<h3>Microsoft Research, <i>Seattle</i></h3>
+						<h4>Research Intern,<i> May 2022 - August 2022 </i></h4>
+            <p>Intelligent meeting recap - Built LLM based meeting experiences
+             and studied its effectivenss in the context
+            of user's meeting. Insights informed to the development of a robust meeting
+          recap exeperience within Microsoft. </p>
+					</div>
+          <div class="exp">
+						<h3>Microsoft Research, <i>Seattle</i></h3>
+						<h4>Research Intern,<i> May 2021 - August 2021 </i></h4>
+            <p>Usefulness and challenges of devops bots in the software development landscape 
+              - Studied bots in a bot platform used by 10,000 developers daily for their workflows.
+            Identified bot challenges such as too many recommendations, poorly grounded human-bot communication.
+            Recommendation from the study helped improve bot engagement, and overall software development
+            quality with Microsoft.
+          </p>
+					</div>
+          <div class="exp">
+						<h3>Microsoft Research, <i>India</i></h3>
+						<h4>Research Fellow,<i> May 2018 - July 2019 </i></h4>
+            <p>Developed a reviewer recommendations platform within Microsoft. Evaluated 
+              the platform through a continual quantative user study, and interviewed developers
+              to understand the breakdowns of the system, and potential direction for improvement such 
+              as understanding code level semantic knowledge of developers for review recommendation.
+            </p>
+					</div>
+          <div class="exp">
+						<h3>Wikimedia Foundation, <i>India</i></h3>
+						<h4>Internship,<i> Jan 2018 - June 2018 </i></h4>
+            <p>Built a system to identify high level topics of Wikipedia articles using word embeddings, and 
+              RandomForests. The models are currently deployed on Wikipedia, and helping Wikipedia
+              editors identify articles of interest to judge relevance, and decide their value for Wikipedia.
+            </p>
+					</div>
+          <div class="exp">
+						<h3>Arista Networks, <i>India</i></h3>
+						<h4>Full time,<i> July 2017 - May 2018 </i></h4>
+            <p>Worked on L2VPN routing solutions for Gigabit ethernet datacenter networks.
+            </p>
+					</div>
+				</div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
@@ -93,20 +178,17 @@
             </div>
             <div class="col-md-4">
 			</div>
-            
-            
             <!-- Links on the Sidebar -->
             <div class="col-md-4" style="margin-top:2%">
               <dd><a href="https://scholar.google.com/citations?user=een-10MAAAAJ&hl=en&authuser=1">Google Scholar</a></dd> 
               <dd><a href="https://twitter.com/sumit_ast">Twitter</a></dd>
               <dd><a href="https://www.linkedin.com/in/sumitasthana26/">LinkedIn</a></dd>
             </div>
-            
-            
+
             <!-- Publications -->
             <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
-                
+                <h2 id="publications" class="section-header">Publications</h2>
+
                 <strong>Peer-reviewed</strong><br/>
                 <ul>
                 <li class="paper" words="add, your, keywords, here"><a href="#">Teaching conversational agents how to ask questions to know
@@ -128,17 +210,13 @@ Christian Bird, Aditya Kumar, 17th USENIX Symposium on Networked Systems Design 
 ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 21 (November 2018). ACM, New York, NY. 18
 pages. (Accpetance rate: 24%)</li>
                 </ul>
-            
+
                 <!--<strong>Technical Reports</strong><br/>
                 <ul>
                 <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
 				</ul>-->
             </div>
-
-            
         </div>
-
-
     </div>
     <!-- /.container -->
     
