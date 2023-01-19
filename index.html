@@ -25,6 +25,10 @@
       padding-bottom: 0.3em;
       margin-bottom: 0.4em;
     }
+
+    #bs-example-navbar-collapse-1 {
+      position: fixed;
+    }
   </style>
 
 </head>
@@ -47,9 +51,9 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#">Projects</a></li>
+				  <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
 				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
 		  </ul>
 		</div>
 	  </div>
@@ -77,9 +81,12 @@
 					systems to utilize information about their users and the
 					context to improve their performance. For example, a chatbot
 					that efficiently selects queries to pose to the user to
-					learn about a concept, or personalize the interaction.</p>	
+					learn about a concept, or personalize the interaction. I am training in HCI methods to 
+        understand technological interactions, and I bring in strong computational and model building skills
+      from my prior industry experience. E.g., I recently built a bayesian network from a massive dataset of 5M records
+    and applying it in my research to build more efficient agents.</p>	
                 </div>
-        <div class="projects">
+        <div class="projects" id="projects">
           <h2 class="section-header">Projects</h2>
 				<!-- <ul>
 					<li>Teaching conversational agents to know their users by
@@ -91,6 +98,13 @@
 					<li>Understanding decision making under Uncertainity </li>
 					<li>Automatically labeling low quality content on Wikipedia.</li>
 				</ul> -->
+        <div class="project">
+          <h4>Building agents that learn about users for personalization while respecting their privacy</h4>
+          <p>Understanding the privacy implications of human - agent interactions when agents try to learn about users for personalization.
+            Built a bayesian network from a massive data of user preferences and using the network to drive interactions in a quantative study to 
+            measure privacy violations and privacy concerns, so that more privacy-aware agents can be built.
+          </p>
+        </div>
           <div class="project">
             <h4>Tell me how to know you? - Teaching conversational agents how to know their users</h4>
             <p>Research on conversational agents that learn to ask open domain questions to know their
@@ -108,7 +122,15 @@
           <div class="project">
 
             <h4>Modeling indoor covid-19 transmissions</h4>
-            <p>Build a system to evaluate the spread of covid-19 in indoor environments, by simulating human behavior using Reinforcement Learning. Through realistic models of home environments, and human behavior, we are understanding the spread of covid-19 due to human movements, to identify possible strategies to mitigate such spread.
+            <p>Built a system to evaluate the spread of covid-19 in indoor environments, by simulating human behavior using Reinforcement Learning. Through realistic models of home environments, and human behavior, we are understanding the spread of covid-19 due to human movements, to identify possible strategies to mitigate such spread.
+            </p>
+          </div>
+
+          <div class="project">
+
+            <h4>Semi supervised method to implicitly learn intents from people's interactions</h4>
+            <p>Developed a semi-supervised labeling method to learn about the intent of Wikipedia editors when they edit articles. We proposed the method
+              to automatically learn about people's intent for edits to use that for developing article quality models.
             </p>
           </div>
         </div>
@@ -119,12 +141,12 @@
             $('<body>').append(Experience.$element);
           });
         </script>
-				<div class="experience">
-          <h2 class="section-header">Experience</h2>
+				<div class="experience" id="experience">
+          <h2 class="section-header">Industry Experience</h2>
 					<div class="exp">
 						<h3>Microsoft Research, <i>Seattle</i></h3>
 						<h4>Research Intern,<i> May 2022 - August 2022 </i></h4>
-            <p>Intelligent meeting recap - Built LLM based meeting experiences
+            <p>Intelligent meeting recap - Designed, Built and Evaluated an LLM based meeting experiences
              and studied its effectivenss in the context
             of user's meeting. Insights informed to the development of a robust meeting
           recap exeperience within Microsoft. </p>
@@ -188,9 +210,13 @@
             <!-- Publications -->
             <div class="col-md-8" style="height: 100vh;">    
                 <h2 id="publications" class="section-header">Publications</h2>
-
+                
                 <strong>Peer-reviewed</strong><br/>
                 <ul>
+                  <li class="paper" words="add, your, keywords, here"><a href="#">Summaries, Highlights, Action items - Design, implementation, and evaluation of an LLM-powered meeting recap system</a> Sumit Asthana, Sagi Hilleli, Pengcheng He, Aaron Halfaker, In submission to ACM conferene on Computer SuppoertedCSCW 2023</li>
+                  <li class="paper" words="add, your, keywords, here">
+                    <a href="#">Understanding Uncertainty]{Understanding Uncertainty: How Lay Decision-makers Perceive and Interpret Uncertainty in Human-AI Decision Making</a> 
+                      Snehal Prabhudesai, Sumit Asthana, Xun Huan, Nikola Banovic, Accepted, ACM conference on intelligent user interfaces (IUI) 2023</li>
                 <li class="paper" words="add, your, keywords, here"><a href="#">Teaching conversational agents how to ask questions to know
 about their users</a> Sumit Asthana, Nikola Banovic, In submission to IMWUT 2023</li>
                 <li class="paper" words="add, your, keywords, here"><a href="#">Automatically Labeling Low
