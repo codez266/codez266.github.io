@@ -30,6 +30,10 @@
     #bs-example-navbar-collapse-1 {
       position: fixed;
     }
+    .navbar {
+      position: fixed;
+      width: 100%;
+    }
   </style>
 
 </head>
@@ -54,16 +58,16 @@
 				  <li><a href="index.html">Home</a></li>
 				  <li><a href="#projects">Projects</a></li>
           <li><a href="#experience">Experience</a></li>
-				  <li><a href="#publications">Publications</a></li> 
+				  <li><a href="#publications">Publications</a></li>
 		  </ul>
 		</div>
 	  </div>
 	</nav>
-  
+
   <!-- Page Content -->
     <div class="container">
 
-        <div class="row">
+        <div class="row"  style="margin-top: 5em;">
 
             <!-- Entries Column -->
 			<!--<div class="col-md-8" style="height: 100vh;">-->
@@ -71,8 +75,8 @@
                 <!-- Main Image -->
                 <img class="img-responsive" src="img/self.jpeg" alt=""
 				style="width: 30%"><br>
-    
-                <div style="margin-top:3%; text-align:justify;">                
+
+                <div style="margin-top:3%; text-align:justify;">
 					<p>I am a fourth year PhD candidate at University of
 					Michigan, Ann Arbor. My research interests are at the
 					intersection of Machine Learning and Human-Computer
@@ -82,19 +86,36 @@
 					systems to utilize information about their users and the
 					context to improve their performance. For example, a chatbot
 					that efficiently selects queries to pose to the user to
-					learn about a concept, or personalize the interaction. I am training in HCI methods to 
+					learn about a concept, or personalize the interaction. I am training in HCI methods to
         understand technological interactions, and I bring in strong computational and model building skills
       from my prior industry experience. E.g., I recently built a bayesian network from a massive dataset of 5M records
-    and applying it in my research to build more efficient agents.</p>	
+    and applying it in my research to build more efficient agents.</p>
 
     <p>
-      I am an open source <a href="https://gerrit.wikimedia.org/r/q/owner:+asthana.sumit23" target="_blank">contributor <i class="bi bi-link-45deg"></i></a> to Wikipedia, and I also administered their 
-      Google Summer of Code internship program in 2016,17. Specifically, I contributed majorly to the mobile Wikipedia website to make it high-performant. 
-      For my services I was nominated by Wikimedia 
-      Foundation to attend Google summer of code mentor summit in 2017, and invited to present my research 
+      I am an open source <a href="https://gerrit.wikimedia.org/r/q/owner:+asthana.sumit23" target="_blank">contributor <i class="bi bi-link-45deg"></i></a> to Wikipedia, and I also administered their
+      Google Summer of Code internship program in 2016,17. Specifically, I contributed majorly to the mobile Wikipedia website to make it high-performant.
+      For my services I was nominated by Wikimedia
+      Foundation to attend Google summer of code mentor summit in 2017, and invited to present my research
       at the monthly Wikimedia research showcase in 2021.
     </p>
                 </div>
+      </div>
+      <div class="col-md-4 offset-md-8">
+        <div style="font-family: 'Oswald', sans-serif; font-size:
+  32px;"><b>Sumit Asthana</b></div><br>
+        <p><b>asumit at umich dot edu</b><br>
+        <p>Computer Science and Engineering<br>
+        University of Michigan, Ann Arbor<br>
+        Ann Arbor <br>
+        United States	<br>
+        </p>
+        <dd><a href="https://scholar.google.com/citations?user=een-10MAAAAJ&hl=en&authuser=1">Google Scholar</a></dd>
+              <dd><a href="https://twitter.com/sumit_ast">Twitter</a></dd>
+              <dd><a href="https://www.linkedin.com/in/sumitasthana26/">LinkedIn</a></dd>
+    </div>
+
+    </div> <!-- Introduction row div ends here -->
+
         <div class="projects" id="projects">
           <h2 class="section-header">Projects</h2>
 				<!-- <ul>
@@ -107,40 +128,56 @@
 					<li>Understanding decision making under Uncertainity </li>
 					<li>Automatically labeling low quality content on Wikipedia.</li>
 				</ul> -->
-        <div class="project">
-          <h4>Building agents that learn about users for personalization while respecting their privacy</h4>
-          <p>Understanding the privacy implications of human - agent interactions when agents try to learn about users for personalization.
-            Built a bayesian network from a massive data of user preferences and using the network to drive interactions in a quantative study to 
-            measure privacy violations and privacy concerns, so that more privacy-aware agents can be built.
-          </p>
-        </div>
-          <div class="project">
-            <h4>Tell me how to know you? - Teaching conversational agents how to know their users</h4>
-            <p>Research on conversational agents that learn to ask open domain questions to know their
-              users that are relevant, and socially appropriate. The agent uses Reinforcement Learning to
-              maximize information about the user as well as user's willingness to answer the question.
-            </p>
+          <div class="project row">
+            <div class="col-md-8">
+              <h4>Building agents that learn about users for personalization while respecting their privacy</h4>
+              <p>Understanding the privacy implications of human - agent interactions when agents try to learn about users for personalization.
+                Built a bayesian network from a massive data of user preferences and using the network to drive interactions in a quantative study to
+                measure privacy violations and privacy concerns, so that more privacy-aware agents can be built.
+              </p>
+            </div>
+          </div>
+          <div class="project row">
+            <div class="col-md-8">
+              <h4>Tell me how to know you? - Teaching conversational agents how to know their users</h4>
+              <p>Research on conversational agents that learn to ask open domain questions to know their
+                users that are relevant, and socially appropriate. The agent uses Reinforcement Learning to
+                maximize information about the user as well as user's willingness to answer the question.
+              </p>
+            </div>
           </div>
 
-          <div class="project">
-            <h4>Consentful conversational interactions</h4>
-            <p>Can digital personal assitatns violate privacy when knowing their users? - Studying privacy implications of user chatbot interactions in a quantative user study, by understanding user's mental models of conversational digital personal assistants, and their privacy concerns with them.
-            </p>
+          <div class="project row">
+            <div class="col-md-8">
+              <h4>Consentful conversational interactions</h4>
+              <p>Can digital personal assitatns violate privacy when knowing their users? - Studying privacy implications of user chatbot interactions in a quantative user study, by understanding user's mental models of conversational digital personal assistants, and their privacy concerns with them.
+              </p>
+            </div>
           </div>
 
-          <div class="project">
-
-            <h4>Modeling indoor covid-19 transmissions</h4>
-            <p>Built a system to evaluate the spread of covid-19 in indoor environments, by simulating human behavior using Reinforcement Learning. Through realistic models of home environments, and human behavior, we are understanding the spread of covid-19 due to human movements, to identify possible strategies to mitigate such spread.
-            </p>
+          <div class="project row">
+            <div class="col-md-6">
+              <h4>Modeling indoor covid-19 transmissions</h4>
+              <p style="float:left;">Built a system to evaluate the spread of covid-19 in indoor environments, by simulating human behavior using Reinforcement Learning. Through realistic models of home environments, and human behavior, we are understanding the spread of covid-19 due to human movements, to identify possible strategies to mitigate such spread.
+              </p>
+            </div>
+            <div class="col-md-6 offset-md-3" style="float:right">
+              <video width="280" height="220"  controls loop autoplay>
+                <source src="img/pandemic_modeling_example.mov" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
 
-          <div class="project">
 
-            <h4>Semi supervised method to implicitly learn intents from people's interactions</h4>
-            <p>Developed a semi-supervised labeling method to learn about the intent of Wikipedia editors when they edit articles. We proposed the method
-              to automatically learn about people's intent for edits to use that for developing article quality models.
-            </p>
+
+          <div class="project row">
+            <div class="col-md-8">
+              <h4>Semi supervised method to implicitly learn intents from people's interactions</h4>
+              <p>Developed a semi-supervised labeling method to learn about the intent of Wikipedia editors when they edit articles. We proposed the method
+                to automatically learn about people's intent for edits to use that for developing article quality models.
+              </p>
+            </div>
           </div>
         </div>
         <p>&nbsp;</p>
@@ -150,85 +187,77 @@
             $('<body>').append(Experience.$element);
           });
         </script>
+
 				<div class="experience" id="experience">
           <h2 class="section-header">Industry Experience</h2>
-					<div class="exp">
-						<h3>Microsoft Research, <i>Seattle</i></h3>
-						<h4>Research Intern,<i> May 2022 - August 2022 </i></h4>
-            <p>Intelligent meeting recap - Designed, Built and Evaluated an LLM based meeting experiences
-             and studied its effectivenss in the context
-            of user's meeting. Insights informed to the development of a robust meeting
-          recap exeperience within Microsoft. </p>
-					</div>
-          <div class="exp">
-						<h3>Microsoft Research, <i>Seattle</i></h3>
-						<h4>Research Intern,<i> May 2021 - August 2021 </i></h4>
-            <p>Usefulness and challenges of devops bots in the software development landscape 
-              - Studied bots in a bot platform used by 10,000 developers daily for their workflows.
-            Identified bot challenges such as too many recommendations, poorly grounded human-bot communication.
-            Recommendation from the study helped improve bot engagement, and overall software development
-            quality with Microsoft.
-          </p>
-					</div>
-          <div class="exp">
-						<h3>Microsoft Research, <i>India</i></h3>
-						<h4>Research Fellow,<i> May 2018 - July 2019 </i></h4>
-            <p>Developed a reviewer recommendations platform within Microsoft. Evaluated 
-              the platform through a continual quantative user study, and interviewed developers
-              to understand the breakdowns of the system, and potential direction for improvement such 
-              as understanding code level semantic knowledge of developers for review recommendation.
-            </p>
-					</div>
-          <div class="exp">
-						<h3>Wikimedia Foundation, <i>India</i></h3>
-						<h4>Internship,<i> Jan 2018 - June 2018 </i></h4>
-            <p>Built a system to identify high level topics of Wikipedia articles using word embeddings, and 
-              RandomForests. The models are currently deployed on Wikipedia, and helping Wikipedia
-              editors identify articles of interest to judge relevance, and decide their value for Wikipedia.
-            </p>
-					</div>
-          <div class="exp">
-						<h3>Arista Networks, <i>India</i></h3>
-						<h4>Full time,<i> July 2017 - May 2018 </i></h4>
-            <p>Worked on L2VPN routing solutions for Gigabit ethernet datacenter networks.
-            </p>
-					</div>
-				</div>
-            </div> 
 
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size:
-					32px;"><b>Sumit Asthana</b></div><br>
-                <p><b>asumit at umich dot edu</b><br>
-                <p>Computer Science and Engineering<br>
-                University of Michigan, Ann Arbor<br>
-                Ann Arbor <br>
-                United States	<br>
-                </p>
+					<div class="exp row">
+            <div class="col-md-8">
+              <h3>Microsoft Research, <i>Seattle</i></h3>
+              <h4>Research Intern,<i> May 2022 - August 2022 </i></h4>
+              <p>Intelligent meeting recap - Designed, Built and Evaluated an LLM based meeting experiences
+              and studied its effectivenss in the context
+              of user's meeting. Insights informed to the development of a robust meeting
+            recap exeperience within Microsoft. </p>
+					  </div>
+          </div>
+          <div class="exp row">
+            <div class="col-md-8">
+              <h3>Microsoft Research, <i>Seattle</i></h3>
+              <h4>Research Intern,<i> May 2021 - August 2021 </i></h4>
+              <p>Usefulness and challenges of devops bots in the software development landscape
+                - Studied bots in a bot platform used by 10,000 developers daily for their workflows.
+              Identified bot challenges such as too many recommendations, poorly grounded human-bot communication.
+              Recommendation from the study helped improve bot engagement, and overall software development
+              quality with Microsoft.
+              </p>
             </div>
-            <div class="col-md-4">
-			</div>
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="https://scholar.google.com/citations?user=een-10MAAAAJ&hl=en&authuser=1">Google Scholar</a></dd> 
-              <dd><a href="https://twitter.com/sumit_ast">Twitter</a></dd>
-              <dd><a href="https://www.linkedin.com/in/sumitasthana26/">LinkedIn</a></dd>
+					</div>
+          <div class="exp row">
+            <div class="col-md-8">
+              <h3>Microsoft Research, <i>India</i></h3>
+              <h4>Research Fellow,<i> May 2018 - July 2019 </i></h4>
+              <p>Developed a reviewer recommendations platform within Microsoft. Evaluated
+                the platform through a continual quantative user study, and interviewed developers
+                to understand the breakdowns of the system, and potential direction for improvement such
+                as understanding code level semantic knowledge of developers for review recommendation.
+              </p>
             </div>
+					</div>
+          <div class="exp row">
+            <div class="col-md-8">
+              <h3>Wikimedia Foundation, <i>India</i></h3>
+              <h4>Internship,<i> Jan 2018 - June 2018 </i></h4>
+              <p>Built a system to identify high level topics of Wikipedia articles using word embeddings, and
+                RandomForests. The models are currently deployed on Wikipedia, and helping Wikipedia
+                editors identify articles of interest to judge relevance, and decide their value for Wikipedia.
+              </p>
+            </div>
+					</div>
+          <div class="exp row">
+            <div class="col-md-8">
+              <h3>Arista Networks, <i>India</i></h3>
+              <h4>Full time,<i> July 2017 - May 2018 </i></h4>
+              <p>Worked on L2VPN routing solutions for Gigabit ethernet datacenter networks.
+              </p>
+					  </div>
+          </div>
+				</div>
 
             <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
+          <div class="row">
+            <div class="col-md-8" style="height: 100vh;">
                 <h2 id="publications" class="section-header">Publications</h2>
-                
+
                 <strong>Peer-reviewed</strong><br/>
                 <ul>
                   <li class="paper" words="add, your, keywords, here">
-                    <a href="#">Summaries, Highlights, and Action items - Design, implementation, and 
+                    <a href="#">Summaries, Highlights, and Action items - Design, implementation, and
                       evaluation of an LLM-powered meeting recap system</a> Sumit Asthana, Sagi Hilleli,
-                       Pengcheng He, Aaron Halfaker, In submission to ACM conferene on Computer Supported 
+                       Pengcheng He, Aaron Halfaker, In submission to ACM conferene on Computer Supported
                        CSCW 2023</li>
                   <li class="paper" words="add, your, keywords, here">
-                    <a href="#">Understanding Uncertainty Understanding Uncertainty: How Lay Decision-makers Perceive and Interpret Uncertainty in Human-AI Decision Making</a> 
+                    <a href="#">Understanding Uncertainty Understanding Uncertainty: How Lay Decision-makers Perceive and Interpret Uncertainty in Human-AI Decision Making</a>
                     Snehal Prabhudesai, Sumit Asthana, Leyao Yang, Xun Huan, Q. Vera Liao, Nikola Banovic, Accepted, ACM conference on intelligent user interfaces (IUI) 2023</li>
                 <li class="paper" words="add, your, keywords, here"><a href="#">Teaching conversational agents how to ask questions to know
 about their users</a> Nikola Banovic,  Sumit Asthana, Yujian Liu, Yucen Sun, Renee Li, Nan Liu, Gaurav Shekhawat, In submission to MobileHCI 2023</li>
@@ -258,10 +287,10 @@ pages. (Accpetance rate: 24%)</li>
         </div>
     </div>
     <!-- /.container -->
-    
+
     <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a>
+
 </body>
 
 </html>
