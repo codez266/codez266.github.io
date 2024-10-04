@@ -17,6 +17,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
   <style>
+    html {
+  scroll-behavior: smooth;
+}
     .exp, .project{
       margin-top: 2em;
     }
@@ -34,6 +37,36 @@
       position: fixed;
       width: 100%;
     }
+
+    .experience-card {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Smooth rounded corners */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth hover effect */
+    margin-bottom: 0.8em;
+    background-color: #fcfafa6b;
+}
+
+.experience-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover */
+}
+
+.card-title {
+    font-size: 1.2em; /* Adjust title font size */
+}
+
+.card-subtitle {
+    font-size: 1em; /* Adjust subtitle size */
+}
+
+.curtain {
+  position: absolute;
+  width: 100%;
+  background: #fdf9f9;
+  z-index: -1;
+
+}
+
   </style>
 
 </head>
@@ -56,9 +89,9 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#experience">Experience</a></li>
-				  <li><a href="#publications">Publications</a></li>
+				  <li><a href="#projects">Projects</a></li>
 		  </ul>
 		</div>
 	  </div>
@@ -115,155 +148,291 @@
     </div>
 
     </div> <!-- Introduction row div ends here -->
+    <div class="experience" id="publications">
 
-        <div class="projects" id="projects">
-          <h2 class="section-header">Projects</h2>
-				<!-- <ul>
-					<li>Teaching conversational agents to know their users by
-						asking the right questions.</li>
-					<li>Understanding privacy risks of conversing with open
-						domain conversational agents.</li>
-					<li>Modeling indoor covid-19 transmissions using agent based
-					models.</li>
-					<li>Understanding decision making under Uncertainity </li>
-					<li>Automatically labeling low quality content on Wikipedia.</li>
-				</ul> -->
-        <div class="project row">
-          <div class="col-md-8">
-            <h4>Adaptive methods for supporting students in course learning</h4>
-            <p>Personalized AI can improve education significantly by giving each student the opportunity to learn at their own pace and understanding.
-              In this work, I am leveraging cognitive theory retention of concepts to build an adaptive course practice scheduler that allows students to practice
-              course materials. The algorithm uses RL on the underlying memory model to adaptively schedule concepts for practice that account for past recall of concepts
-              as well as maximize lookahead gains of learning future concepts.
-            </p>
+      <h2 class="section-header">Publications</h2>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Summaries, Highlights, and Action items - Design, implementation, and
+                      evaluation of an LLM-powered meeting recap system.</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">In Proceedings of ACM conferene on Computer Supported Cooperative Work (CSCW 2024)</h4>
+                    <p class="card-text"> Sumit Asthana, Sagi Hilleli,
+                      Pengcheng He, Aaron Halfaker </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      Understanding Uncertainty Understanding Uncertainty: How Lay Decision-makers
+                      Perceive and Interpret Uncertainty in Human-AI Decision Making
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of ACM conference on intelligent user interfaces (IUI) 2023
+                    </h4>
+                    <p class="card-text">
+                      Snehal Prabhudesai, Sumit Asthana, Leyao Yang, Xun Huan, Q. Vera Liao, Nikola Banovic
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      Automatically Labeling Low Quality Content on Wikipedia by Leveraging Patterns in Editing Behaviors
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of the
+ACM on Human-Computer Interaction, Vol. 5, No. CSCW2, Article 359 (October 2021). ACM 23 pages
+                    </h4>
+                    <p class="card-text">
+                      Sumit Asthana, Sabrina Tobar Thommel, Aaron Halfaker, Nikola
+					Banovic
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      Whodo: Automating reviewer suggestions at scale
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of the 2019 27th
+                      ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of
+                      Software Engineering. 2019. (FSE)
+                    </h4>
+                    <p class="card-text">
+                      Sumit Asthana, Rahul Kumar, Ranjita Bhagwan, Christian Bird, Chetan Bansal, Chandra Maddila, Sonu
+Mehta, B. Ashok
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      Rex: Preventing bugs and misconfiguration in large services using
+correlated change analysis
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of the 17th USENIX Symposium on Networked Systems Design and Implementation
+                      (NSDI 20). 2020.
+                    </h4>
+                    <p class="card-text">
+                      Sonu Mehta, Ranjita Bhagwan, Rahul Kumar, Chetan Bansal, Chandra Maddila, B. Ashok, Sumit Asthana,
+                      Christian Bird, Aditya Kumar
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      With Few Eyes, All Hoaxes are Deep
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of the
+ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 21 (November 2018). ACM, New York, NY. 18
+pages. (Accpetance rate: 24%).
+                    </h4>
+                    <p class="card-text">
+                      Sumit Asthana and Aaron Halfaker.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="experience" id="experience">
+      <h2 class="section-header">Industry Experience</h2>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Google Deepmind, <i>New York</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Research Intern, <i>August 2023 - December 2023</i></h4>
+                    <p class="card-text">Adaptive simplification of domain-specific writing using LLMs. Developed a robust semantic evaluation method to evaluate LLMs for simplifying domain-specific writing and evaluated open-source and commercial LLMs for their performance on the task.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Microsoft Research, <i>Seattle</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Research Intern, <i>May 2022 - August 2022</i></h4>
+                    <p class="card-text">Intelligent meeting recap - Designed, Built and Evaluated an LLM based meeting experiences
+                      and studied its effectivenss in the context
+                      of user's meeting. Insights informed to the development of a robust meeting
+                    recap exeperience within Microsoft.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Microsoft Research, <i>Seattle</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Research Intern, <i>May 2021 - August 2021</i></h4>
+                    <p>Usefulness and challenges of devops bots in the software development landscape
+                      - Studied bots in a bot platform used by 10,000 developers daily for their workflows.
+                    Identified bot challenges such as too many recommendations, poorly grounded human-bot communication.
+                    Recommendation from the study helped improve bot engagement, and overall software development
+                    quality with Microsoft.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Microsoft Research, <i>Bengaluru</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Research Fellow, <i>May 2018 - July 2019</i></h4>
+                    <p>Developed a reviewer recommendations platform within Microsoft. Evaluated
+                      the platform through a continual quantative user study, and interviewed developers
+                      to understand the breakdowns of the system, and potential direction for improvement such
+                      as understanding code level semantic knowledge of developers for review recommendation.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Wikimedia Foundation, <i>India</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Intern, <i>Jan 2018 - June 2018</i></h4>
+                    <p>Built a system to identify high level topics of Wikipedia articles using word embeddings, and
+                      RandomForests. The models are currently deployed on Wikipedia, and helping Wikipedia
+                      editors identify articles of interest to judge relevance, and decide their value for Wikipedia.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Arista Networks, <i>Bengaluru, India</i></h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Intern, <i>July 2017 - May 2018</i></h4>
+                    <p>Worked on L2VPN routing solutions for Gigabit ethernet datacenter networks.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <h2 class="section-header">Projects</h2>
+      <div class="project row experience-card">
+        <div class="col-md-8 offset-md-2">
+          <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">Adaptive methods for supporting students in course learning</h3>
+                <p>
+                  Personalized AI can improve education significantly by giving each student the opportunity to learn at their own pace and understanding.
+                  In this work, I am leveraging cognitive theory retention of concepts to build an adaptive course practice scheduler that allows students to practice
+                  course materials. The algorithm uses RL on the underlying memory model to adaptively schedule concepts for practice that account for past recall of concepts
+                  as well as maximize lookahead gains of learning future concepts.
+                </p>
+            </div>
           </div>
         </div>
-          <div class="project row">
-            <div class="col-md-8">
-              <h4>Building agents that learn about users for personalization while respecting their privacy</h4>
+      </div>
+      <div class="project row experience-card">
+        <div class="col-md-8 offset-md-2">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Building agents that learn about users for personalization while respecting their privacy.</h3>
               <p>Understanding the privacy implications of human - agent interactions when agents try to learn about users for personalization.
                 Built a bayesian network from a massive data of user preferences and using the network to drive interactions in a quantative study to
                 measure privacy violations and privacy concerns, so that more privacy-aware agents can be built.
               </p>
             </div>
           </div>
-          <div class="project row">
-            <div class="col-md-8">
-              <h4>Tell me how to know you? - Teaching conversational agents how to know their users</h4>
-              <p>Research on conversational agents that learn to ask open domain questions to know their
-                users that are relevant, and socially appropriate. The agent uses Reinforcement Learning to
-                maximize information about the user as well as user's willingness to answer the question.
-              </p>
-            </div>
-          </div>
-
-          <div class="project row">
-            <div class="col-md-6">
-              <h4>Modeling indoor covid-19 transmissions (<a
-                href="video_covid19_modeling.html" target="_blank">Demo <i class="bi bi-link-45deg"></i></a>)</h4>
-              <p style="float:left;">Built a system to evaluate the spread of
-			  covid-19 in indoor environments, by simulating human behavior
-			  using Reinforcement Learning. Through realistic models of home
-			  environments, and human behavior, we are understanding the spread
-			  of covid-19 due to human movements, to identify possible
-			  strategies to mitigate such spread. Click <a
-				  href="video_covid19_modeling.html" target="_blank">here</a> for a demo video.
-              </p>
-            </div>
-            <div class="col-md-6 offset-md-3" style="float:right">
-              <video width="280" height="220"  controls loop autoplay>
-                <source src="img/pandemic_modeling_example.mov" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-
-
-
-          <div class="project row">
-            <div class="col-md-8">
-              <h4>Semi supervised method to implicitly learn intents from people's interactions</h4>
-              <p>Developed a semi-supervised labeling method to learn about the intent of Wikipedia editors when they edit articles. We proposed the method
-                to automatically learn about people's intent for edits to use that for developing article quality models.
-              </p>
-            </div>
-          </div>
         </div>
-        <p>&nbsp;</p>
+      </div>
+
+      <div class="project row experience-card">
+        <div class="col-md-8 offset-md-2">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Modeling indoor covid-19 transmissions. (<a
+                href="video_covid19_modeling.html" target="_blank">Demo <i class="bi bi-link-45deg"></i></a>)</h3>
+              <p style="float:left;">Built a system to evaluate the spread of
+                covid-19 in indoor environments, by simulating human behavior
+                using Reinforcement Learning. Through realistic models of home
+                environments, and human behavior, we are understanding the spread
+                of covid-19 due to human movements, to identify possible
+                strategies to mitigate such spread. Click <a
+                  href="video_covid19_modeling.html" target="_blank">here</a> for a demo video.
+              </p>
+              <div class="" style="float:right">
+                <video width="280" height="220"  controls loop autoplay>
+                  <source src="img/pandemic_modeling_example.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- <div class="project row">
+        <div class="col-md-8">
+          <h4>Semi supervised method to implicitly learn intents from people's interactions</h4>
+          <p>Developed a semi-supervised labeling method to learn about the intent of Wikipedia editors when they edit articles. We proposed the method
+            to automatically learn about people's intent for edits to use that for developing article quality models.
+          </p>
+        </div>
+      </div> -->
+    </div>
+    <p>&nbsp;</p>
 
         <script>
           $(document).ready(() => {
             $('<body>').append(Experience.$element);
           });
         </script>
-
-				<div class="experience" id="experience">
-          <h2 class="section-header">Industry Experience</h2>
-          <div class="exp row">
-            <div class="col-md-8">
-              <h3>Google Deepmind,<i>New York</i></h3>
-              <h4>Research Intern,<i> August 2023 - December 2023 </i></h4>
-              <p>Adaptive simplificiation of domain specific writing using LLMs. Developed robust semantic evaluation method
-                to evaluate LLMs for simplifying domain specific writing and evaluated open source and commercial LLMs
-              for their performance on the task. </p>
-					  </div>
-          </div>
-
-					<div class="exp row">
-            <div class="col-md-8">
-              <h3>Microsoft Research, <i>Seattle</i></h3>
-              <h4>Research Intern,<i> May 2022 - August 2022 </i></h4>
-              <p>Intelligent meeting recap - Designed, Built and Evaluated an LLM based meeting experiences
-              and studied its effectivenss in the context
-              of user's meeting. Insights informed to the development of a robust meeting
-            recap exeperience within Microsoft. </p>
-					  </div>
-          </div>
-          <div class="exp row">
-            <div class="col-md-8">
-              <h3>Microsoft Research, <i>Seattle</i></h3>
-              <h4>Research Intern,<i> May 2021 - August 2021 </i></h4>
-              <p>Usefulness and challenges of devops bots in the software development landscape
-                - Studied bots in a bot platform used by 10,000 developers daily for their workflows.
-              Identified bot challenges such as too many recommendations, poorly grounded human-bot communication.
-              Recommendation from the study helped improve bot engagement, and overall software development
-              quality with Microsoft.
-              </p>
-            </div>
-					</div>
-          <div class="exp row">
-            <div class="col-md-8">
-              <h3>Microsoft Research, <i>India</i></h3>
-              <h4>Research Fellow,<i> May 2018 - July 2019 </i></h4>
-              <p>Developed a reviewer recommendations platform within Microsoft. Evaluated
-                the platform through a continual quantative user study, and interviewed developers
-                to understand the breakdowns of the system, and potential direction for improvement such
-                as understanding code level semantic knowledge of developers for review recommendation.
-              </p>
-            </div>
-					</div>
-          <div class="exp row">
-            <div class="col-md-8">
-              <h3>Wikimedia Foundation, <i>India</i></h3>
-              <h4>Internship,<i> Jan 2018 - June 2018 </i></h4>
-              <p>Built a system to identify high level topics of Wikipedia articles using word embeddings, and
-                RandomForests. The models are currently deployed on Wikipedia, and helping Wikipedia
-                editors identify articles of interest to judge relevance, and decide their value for Wikipedia.
-              </p>
-            </div>
-					</div>
-          <div class="exp row">
-            <div class="col-md-8">
-              <h3>Arista Networks, <i>India</i></h3>
-              <h4>Full time,<i> July 2017 - May 2018 </i></h4>
-              <p>Worked on L2VPN routing solutions for Gigabit ethernet datacenter networks.
-              </p>
-					  </div>
-          </div>
-				</div>
-
             <!-- Publications -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-8" style="height: 100vh;">
                 <h2 id="publications" class="section-header">Publications</h2>
 
@@ -296,13 +465,8 @@ Christian Bird, Aditya Kumar, 17th USENIX Symposium on Networked Systems Design 
 ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 21 (November 2018). ACM, New York, NY. 18
 pages. (Accpetance rate: 24%)</li>
                 </ul>
-
-                <!--<strong>Technical Reports</strong><br/>
-                <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
-				</ul>-->
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- /.container -->
 
