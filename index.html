@@ -83,6 +83,10 @@
     text-align: center;
 }
 
+.bio {
+  font-size: 1.1em;
+}
+
   </style>
 
 </head>
@@ -125,8 +129,8 @@
                 <img class="img-responsive" src="img/self.jpeg" alt=""
 				style="width: 30%"><br>
 
-                <div style="margin-top:3%; text-align:justify;">
-					<p>I am a fourth year PhD candidate at University of
+                <div class="bio" style="margin-top:3%; text-align:justify;">
+					<p>I am a final year PhD candidate at University of
 					Michigan, Ann Arbor. My research interests are at the
 					intersection of Machine Learning and Human-Computer
 					Interaction (HCI).</p>
@@ -172,6 +176,17 @@
         <div class="col-md-8 offset-md-2">
             <div class="card mb-4">
                 <div class="card-body">
+                    <h3 class="card-title">Evaluating LLMs for Targeted Concept Simplification for Domain-Specific Texts.</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 6208–6226, Miami, Florida, USA. Association for Computational Linguistics.</h4>
+                    <p class="card-text"> Sumit Asthana, Hannah Rashkin, Elizabeth Clark, Fantine Huot, Mirella Lapata </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
                     <h3 class="card-title">Summaries, Highlights, and Action items - Design, implementation, and
                       evaluation of an LLM-powered meeting recap system.</h3>
                     <h4 class="card-subtitle mb-2 text-muted">In Proceedings of ACM conferene on Computer Supported Cooperative Work (CSCW 2024)</h4>
@@ -186,7 +201,7 @@
             <div class="card mb-4">
                 <div class="card-body">
                     <h3 class="card-title">
-                      Understanding Uncertainty Understanding Uncertainty: How Lay Decision-makers
+                      Understanding Uncertainty: How Lay Decision-makers
                       Perceive and Interpret Uncertainty in Human-AI Decision Making
                     </h3>
                     <h4 class="card-subtitle mb-2 text-muted">
@@ -194,6 +209,25 @@
                     </h4>
                     <p class="card-text">
                       Snehal Prabhudesai, Sumit Asthana, Leyao Yang, Xun Huan, Q. Vera Liao, Nikola Banovic
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row experience-card">
+        <div class="col-md-8 offset-md-2">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">
+                      eneration and assessment of multiple-choice
+questions from video transcripts using large language models
+                    </h3>
+                    <h4 class="card-subtitle mb-2 text-muted">
+                      In Proceedings of the Eleventh ACM Conference on
+Learning@ Scale (pp. 530-534).
+                    </h4>
+                    <p class="card-text">
+                      Taimoor Arif, Sumit Asthana, Kevyn Collins Thompson
                     </p>
                 </div>
             </div>
@@ -380,12 +414,11 @@ pages. (Accpetance rate: 24%).
         <div class="col-md-8 offset-md-2">
           <div class="card mb-4">
             <div class="card-body">
-                <h3 class="card-title">Adaptive methods for supporting students in course learning</h3>
+                <h3 class="card-title">Designing adaptive assessments for understanding students knowledge in course learning</h3>
                 <p>
                   Personalized AI can improve education significantly by giving each student the opportunity to learn at their own pace and understanding.
-                  In this work, I am leveraging cognitive theory retention of concepts to build an adaptive course practice scheduler that allows students to practice
-                  course materials. The algorithm uses RL on the underlying memory model to adaptively schedule concepts for practice that account for past recall of concepts
-                  as well as maximize lookahead gains of learning future concepts.
+                  In this work, I am leveraging cognitive theory concept understanding to build an adaptive assessment methodology that assesses student competence while minimizing burden on them.
+                  I formulated a structured decision space of concepts necessary to understand the course, and combined LLM interaction with a submodular objective evaluation of concepts.
                 </p>
             </div>
           </div>
@@ -395,10 +428,28 @@ pages. (Accpetance rate: 24%).
         <div class="col-md-8 offset-md-2">
           <div class="card mb-4">
             <div class="card-body">
-              <h3 class="card-title">Building agents that learn about users for personalization while respecting their privacy.</h3>
-              <p>Understanding the privacy implications of human - agent interactions when agents try to learn about users for personalization.
-                Built a bayesian network from a massive data of user preferences and using the network to drive interactions in a quantative study to
-                measure privacy violations and privacy concerns, so that more privacy-aware agents can be built.
+                <h3 class="card-title">Alinging AI-assisted decision-making with end-user preferences</h3>
+                <p>
+                  AI may make decisions that do not always align with end-user sensibilities. For example, during personalization, systems
+                  may collect data and infer and use sensitive attributes about their users without their awareness or consent. In this work, I engineered a Human-AI interactive system
+                  that collects the most optimal and informative data about its users for personalization using a submodular objective. In a between and within-subjects user study,
+                  I then demonstrated that users show differential preferences for the usage of sensitive attributes about them that the AI infers.
+                  Their preferences depend on the sensitivity and the accuracy of inferences. The study provides concrete evidence of incorporating explicit
+                  user feedback in systems for aligning AI objectives with user preferences.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project row experience-card">
+        <div class="col-md-8 offset-md-2">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Aligning Wikipedia article quality assessment by learning from policy-guided Wikipedia edits.</h3>
+              <p>Content assessment is guided by content policies -- neutral point of view (NPOV), citations, and clear writing. For AI to understand
+                Wikipedia content quality assessment, it needs to understand the application of the content policies in-context. I showed that Wikipedia
+                edits that instantiate these content policies learn more aligned assessments of Wikipedia content policies than learning form
+                sentences on highest quality articles.
               </p>
             </div>
           </div>
