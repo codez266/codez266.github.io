@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: sumitasthana.xyz/sitemap.xml
