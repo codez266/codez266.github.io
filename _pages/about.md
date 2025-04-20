@@ -12,7 +12,7 @@ profile:
     <p></p>
     <p>
     <a href="https://github.com/codez266"><i class="fa-brands fa-github"></i>&nbsp;<span>GitHub</span></a> •
-    <a href="assets/pdf/Sumit_CV_24.pdf"><i class="fa-solid fa-file-pdf"></i>&nbsp;<span>CV</span></a> •
+    <a href="assets/pdf/Sumit_CV.pdf"><i class="fa-solid fa-file-pdf"></i>&nbsp;<span>CV</span></a> •
     <a href="https://www.linkedin.com/in/sumitasthana26/"><i class="fa-brands fa-linkedin"></i>&nbsp;<span>LinkedIn</span></a> •
     <a href="https://scholar.google.com/citations?user=een-10MAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar"></i>&nbsp;<span>Google Scholar</span></a></p>
 
