@@ -2,12 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
+
+> The projects described here either ended up as production grade software in organizatons, or were used for designing systems as part of publications. Some more will be added soon.
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -36,6 +38,7 @@ horizontal: false
   </div>
   {% endif %}
   {% endfor %}
+  More coming soon...
 
 {% else %}
 
