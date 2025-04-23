@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -429,6 +436,31 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-implementing-the-das3h-model-to-model-student-39-s-learning-and-retention-using-spaced-repetition",
+          title: 'Implementing the DAS3H model to model student&amp;#39;s learning and retention using spaced repetition...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_das3h/";
+            },},{id: "projects-supporting-wikipedia-39-s-manual-review-pipeline-through-personalized-ai-assisted-topic-triaging",
+          title: 'Supporting Wikipedia&amp;#39;s manual review pipeline through personalized AI-assisted topic triaging.',
+          description: "Using topic prediction to reduce review backlog and support expert routing",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_drafttopic/";
+            },},{id: "projects-learning-bayesian-user-model-from-8-m-census-records-to-design-an-efficient-preference-elicitation-agent",
+          title: 'Learning Bayesian user model from 8 M Census records to design an efficient...',
+          description: "Understanding privacy preferences of users with a personalization AI agent",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_learning_user_preferences_personalization/";
+            },},{id: "projects-implementing-an-adaptive-qa-assessment-by-combining-structured-models-and-llms",
+          title: 'Implementing an adaptive QA assessment by combining structured models and LLMs.',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_personalized_adaptive_qa_assessment/";
+            },},{id: "projects-improving-ai-models-by-labeling-and-learning-from-implicit-behavior-patterns",
+          title: 'Improving AI models by labeling and learning from implicit behavior patterns',
+          description: "Using RNN models to detect quality issues in Wikipedia sentences",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_wikipedia_quality/";
             },},{
         id: 'social-email',
         title: 'email',
