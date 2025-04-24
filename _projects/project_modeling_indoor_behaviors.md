@@ -2,15 +2,15 @@
 layout: page
 title: Modeling indoor behaviors using deep-RL
 description: Modeling indoor behaviors of people using deep-RL and simulating virus transmissions to evaluate health interventions
-img:
+img: assets/img/behavior_modeling.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
-> 📘 **This post is an accessible read of a work under publication**
+> 📘 **This post is an accessible read of a work being prepared for publication**
 >
-> I am happy to share the code on request for any evaluation of skills, or discussion about the project. After the submission of the work, I will open-source the code, and the manuscript on arxiv.
+> I am happy to share the code on request for any evaluation of skills, or discussion about the project. After the submission of the work for review, I will open-source the code, and the manuscript on arxiv.
 
 ## Simulating Indoor Behavior and Viral Transmission with Deep RL
 
@@ -22,10 +22,14 @@ The goal is to train agents to behave in a way that satisfies their needs effici
 
 Below is a short clip describing the simulation. One of the agents is infected with covid-19 and the other is uninfected. They move about, occassionally going to the bathroom or kitchen depending on the next.
 
-<video width="100%" controls>
-  <source src="{{ site.baseurl }}/assets/video/behavior_modeling.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 col-md-8 mt-3 mt-md-0">
+        <video width="100%" controls>
+        <source src="{{ site.baseurl }}/assets/video/behavior_modeling.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
 
 ---
 
