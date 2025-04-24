@@ -406,6 +406,11 @@ ninja.data = [{
           description: "Understanding privacy preferences of users with a personalization AI agent",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_learning_user_preferences_personalization/";
+            },},{id: "projects-modeling-indoor-behaviors-using-deep-rl",
+          title: 'Modeling indoor behaviors using deep-RL',
+          description: "Modeling indoor behaviors of people using deep-RL and simulating virus transmissions to evaluate health interventions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_modeling_indoor_behaviors/";
             },},{id: "projects-implementing-an-adaptive-qa-assessment-by-combining-structured-models-and-llms",
           title: 'Implementing an adaptive QA assessment by combining structured models and LLMs.',
           description: "",
